@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 aoc = "0.3.2"
+utils = { path = "../utils" }

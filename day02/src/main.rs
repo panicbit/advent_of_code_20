@@ -1,4 +1,5 @@
 #[macro_use] extern crate aoc;
+use utils::*;
 
 #[aoc(2020, 02, 1)]
 fn main(input: &str) -> usize {
@@ -18,16 +19,18 @@ struct Password<'a> {
 
 impl<'a> Password<'a> {
     fn parse(line: &'a str) -> Self {
-        let mut parts = line.split_whitespace();
-        let mut range = parts.next().unwrap().split('-');
-        let char = parts.next().unwrap().chars().next().unwrap();
-        let text = parts.next().unwrap();
+        let caps = re!(r"(?x)
+            (?P<min>\d+)-(?P<max>\d+)\s
+            (?P<char>\w):\s
+            (?P<text>.*)",
+            line
+        );
 
         Self {
-            min: range.next().unwrap().parse().unwrap(),
-            max: range.next().unwrap().parse().unwrap(),
-            char,
-            text,
+            min: caps.parse::<usize>("min"),
+            max: caps.parse::<usize>("max"),
+            char: caps.parse::<char>("char"),
+            text: caps.str("text"),
         }
     }
 

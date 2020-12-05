@@ -386,6 +386,7 @@ name = "day01"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -393,6 +394,7 @@ name = "day01_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -400,6 +402,7 @@ name = "day02"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -407,6 +410,7 @@ name = "day02_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -414,6 +418,7 @@ name = "day03"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -421,6 +426,7 @@ name = "day03_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -428,6 +434,7 @@ name = "day04"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -435,6 +442,7 @@ name = "day04_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -442,6 +450,7 @@ name = "day05"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -449,6 +458,7 @@ name = "day05_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -456,6 +466,7 @@ name = "day06"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -463,6 +474,7 @@ name = "day06_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -470,6 +482,7 @@ name = "day07"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -477,6 +490,7 @@ name = "day07_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -484,6 +498,7 @@ name = "day08"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -491,6 +506,7 @@ name = "day08_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -498,6 +514,7 @@ name = "day09"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -505,6 +522,7 @@ name = "day09_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -512,6 +530,7 @@ name = "day10"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -519,6 +538,7 @@ name = "day10_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -526,6 +546,7 @@ name = "day11"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -533,6 +554,7 @@ name = "day11_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -540,6 +562,7 @@ name = "day12"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -547,6 +570,7 @@ name = "day12_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -554,6 +578,7 @@ name = "day13"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -561,6 +586,7 @@ name = "day13_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -568,6 +594,7 @@ name = "day14"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -575,6 +602,7 @@ name = "day14_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -582,6 +610,7 @@ name = "day15"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -589,6 +618,7 @@ name = "day15_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -596,6 +626,7 @@ name = "day16"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -603,6 +634,7 @@ name = "day16_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -610,6 +642,7 @@ name = "day17"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -617,6 +650,7 @@ name = "day17_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -624,6 +658,7 @@ name = "day18"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -631,6 +666,7 @@ name = "day18_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -638,6 +674,7 @@ name = "day19"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -645,6 +682,7 @@ name = "day19_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -652,6 +690,7 @@ name = "day20"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -659,6 +698,7 @@ name = "day20_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -666,6 +706,7 @@ name = "day21"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -673,6 +714,7 @@ name = "day21_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -680,6 +722,7 @@ name = "day22"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -687,6 +730,7 @@ name = "day22_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -694,6 +738,7 @@ name = "day23"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -701,6 +746,7 @@ name = "day23_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -708,6 +754,7 @@ name = "day24"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -715,6 +762,7 @@ name = "day24_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -722,6 +770,7 @@ name = "day25"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -729,6 +778,7 @@ name = "day25_2"
 version = "0.1.0"
 dependencies = [
  "aoc",
+ "utils",
 ]
 
 [[package]]
@@ -2386,6 +2436,14 @@ name = "utf-8"
 version = "0.7.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "05e42f7c18b8f902290b009cde6d651262f956c98bc51bca4cd1d511c9cd85c7"
+
+[[package]]
+name = "utils"
+version = "0.1.0"
+dependencies = [
+ "lazy_static 1.4.0",
+ "regex",
+]
 
 [[package]]
 name = "uuid"
