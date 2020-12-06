@@ -45,18 +45,43 @@ impl<'a> CapturesExt<'a> for &'_ Captures<'a> {
 }
 
 pub trait StrExt {
+    fn u8(&self) -> u8;
     fn i32(&self) -> i32;
     fn usize(&self) -> usize;
     fn is_match(&self, regex: &str) -> bool;
 }
 
 impl<S: AsRef<str>> StrExt for S {
+    fn u8(&self) -> u8 {
+        self.as_ref().parse().unwrap()
+    }
+
     fn i32(&self) -> i32 {
         self.as_ref().parse().unwrap()
     }
 
     fn usize(&self) -> usize {
         self.as_ref().parse().unwrap()
+    }
+
+    fn is_match(&self, regex: &str) -> bool {
+        with_cached_regex(regex, |regex| {
+            regex.is_match(self.as_ref())
+        })
+    }
+}
+
+impl StrExt for str {
+    fn u8(&self) -> u8 {
+        self.parse().unwrap()
+    }
+
+    fn i32(&self) -> i32 {
+        self.parse().unwrap()
+    }
+
+    fn usize(&self) -> usize {
+        self.parse().unwrap()
     }
 
     fn is_match(&self, regex: &str) -> bool {
