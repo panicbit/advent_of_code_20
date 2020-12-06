@@ -40,7 +40,7 @@ impl Map {
                 .collect()
             )
             .collect();
-        
+
         Self {
             locations
         }
