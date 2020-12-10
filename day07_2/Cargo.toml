@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 aoc = "0.3.2"
 utils = { path = "../utils" }
+maplit = "1.0.2"
